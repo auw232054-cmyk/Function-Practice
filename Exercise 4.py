@@ -1,3 +1,4 @@
+#Write a function that accepts any number of numeric positional arguments and returns their total, mean and count. Decide how the function should handle zero arguments
 def number_count(*args):
     total=sum(args)
     mean_num=total/len(args)

@@ -11,5 +11,5 @@ even_value=[]
 for i in range(1,21):
     if is_even(i):
         even_value.append(i)
-print(even_value)
 print(is_even(9))
+print(even_value)
